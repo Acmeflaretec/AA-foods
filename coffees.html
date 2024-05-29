@@ -27,9 +27,30 @@
       <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
       <!-- Tweaks for older IEs-->
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <style>
+         .section {
+           
+             padding: 40px 0;
+         }
+         .section img {
+             max-width: 100%;
+             height: auto;
+         }
+         .section .content {
+             padding: 20px;
+         }
+         @media (max-width: 768px) {
+             .section {
+                 text-align: center;
+             }
+             .section img {
+                 margin-bottom: 20px;
+             }
+         }
+     </style>
    </head>
    <body>
-      <div class="header_section header_bg">
+      <div class="header_section header_bg" style="margin-bottom: 100px;" >
          <div class="container-fluid">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                <a class="navbar-brand"href="index.html"><img src="images/logo.png"></a>
@@ -45,146 +66,105 @@
                         <a class="nav-link" href="about.html">About</a>
                      </li>
                      <li class="nav-item active">
-                        <a class="nav-link" href="coffees.html">Coffees</a>
+                        <a class="nav-link" href="coffees.html">Services</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="shop.html">Shop</a>
-                     </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                     </li>
+                     
                      <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                      </li>
                   </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                     <div class="login_bt">
-                        <ul>
-                           <li><a href="#"><span class="user_icon"><i class="fa fa-user" aria-hidden="true"></i></span>Login</a></li>
-                           <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                        </ul>
-                     </div>
-                  </form>
+                 
                </div>
             </nav>
          </div>
       </div>
       <!-- header section end -->
-      <!-- coffee section start -->
-      <div class="coffee_section layout_padding">
+
+      <section class="section">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-5">
+                     <img src="/images/gallery/1.jpg" alt="Left Image" style="height: 400px;">
+                 </div>
+                 <div class="col-md-6 content">
+                     <h2 style="text-align: center; font-weight: 900; font-size: 30px;">Services</h2>
+                     <p>Discover the exceptional services offered at AA Foods. Our commitment to providing top-notch customer support, timely delivery, and product satisfaction sets us apart. We strive to ensure that your experience with us is seamless and delightful. Experience the superior services of AA Foods and let us enhance your culinary journey.</p>
+                 </div>
+             </div>
+         </div>
+     </section>
+     <!--  -->
+
+      <div class="coffee_section layout_padding mb-5">
          <div class="container">
             <div class="row">
-               <h1 class="coffee_taital">OUR Coffee OFFER</h1>
+               <h1 class="coffee_taital">OUR Products</h1>
                <div class="bulit_icon"><img src="images/bulit-icon.png"></div>
             </div>
          </div>
-         <div class="coffee_section_2">
-            <div id="main_slider" class="carousel slide" data-ride="carousel">
-               <div class="carousel-inner">
-                  <div class="carousel-item active">
-                     <div class="container-fluid">
-                        <div class="row">
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-1.png"></div>
-                              <h3 class="types_text">TYPES OF COFFEE</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-2.png"></div>
-                              <h3 class="types_text">BEAN VARIETIES</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-3.png"></div>
-                              <h3 class="types_text">COFFEE & PASTRY</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-4.png"></div>
-                              <h3 class="types_text">COFFEE TO GO</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container-fluid">
-                        <div class="row">
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-1.png"></div>
-                              <h3 class="types_text">TYPES OF COFFEE</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-2.png"></div>
-                              <h3 class="types_text">BEAN VARIETIES</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-3.png"></div>
-                              <h3 class="types_text">COFFEE & PASTRY</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-4.png"></div>
-                              <h3 class="types_text">COFFEE TO GO</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="carousel-item">
-                     <div class="container-fluid">
-                        <div class="row">
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-1.png"></div>
-                              <h3 class="types_text">TYPES OF COFFEE</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-2.png"></div>
-                              <h3 class="types_text">BEAN VARIETIES</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-3.png"></div>
-                              <h3 class="types_text">COFFEE & PASTRY</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                           <div class="col-lg-3 col-md-6">
-                              <div class="coffee_img"><img src="images/img-4.png"></div>
-                              <h3 class="types_text">COFFEE TO GO</h3>
-                              <p class="looking_text">looking at its layout. The point of</p>
-                              <div class="read_bt"><a href="#">Read More</a></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
-               <i class="fa fa-arrow-left"></i>
-               </a>
-               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
-               <i class="fa fa-arrow-right"></i>
-               </a>
-            </div>
-         </div>
+         
       </div>
+      <!-- coffee section start -->
+   
+      <section class="section">
+         <div class="container">
+             <div class="row">
+                 <div class="col-md-5">
+                     <img src="/images/gallery/1.jpg" alt="Left Image" style="height: 400px;">
+                 </div>
+                 <div class="col-md-6 content">
+                  <h2 style="text-align: center;font-weight: 900;font-size: 30px;" >Cumin</h2>
+                  <p>Cumin is a popular spice known for its distinct aroma and flavor. It is widely used in various cuisines around the world, adding a warm and earthy essence to dishes. Learn about the origins, culinary uses, and health benefits of cumin in this insightful section.</p>
+              </div>
+              
+             </div>
+         </div>
+     </section>
+     <section class="section">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-5">
+                  <img src="/images/gallery/2.jpg" alt="Mustard Image" style="height: 400px;">
+              </div>
+              <div class="col-md-6 content">
+                  <h2 style="text-align: center; font-weight: 900; font-size: 30px;">Mustard</h2>
+                  <p>Mustard is a versatile spice known for its sharp, pungent flavor and wide-ranging culinary applications. Whether it's used as seeds, powder, or paste, mustard adds a distinctive zing to dishes. Discover the origins, flavor profile, and culinary versatility of mustard in this informative section.</p>
+              </div>
+          </div>
+      </div>
+  </section>
+  <section class="section">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-5">
+               <img src="/images/gallery/3.jpg" alt="Fenugreek Image" style="height: 400px;">
+           </div>
+           <div class="col-md-6 content">
+               <h2 style="text-align: center; font-weight: 900; font-size: 30px;">Fenugreek</h2>
+               <p>Fenugreek is a flavorful herb and spice that adds a unique taste to dishes. Known for its slightly sweet, nutty flavor, fenugreek is used in various cuisines for both culinary and medicinal purposes. Explore the history, culinary uses, and potential health benefits of fenugreek in this detailed section.</p>
+           </div>
+       </div>
+   </div>
+</section>
+<section class="section">
+   <div class="container">
+       <div class="row">
+           <div class="col-md-5">
+               <img src="/images/gallery/5.jpg" alt="Compounded Asafoetida Powder Image" style="height: 400px;">
+           </div>
+           <div class="col-md-6 content">
+               <h2 style="text-align: center; font-weight: 900; font-size: 30px;">Compounded Asafoetida Powder</h2>
+               <p>Compounded Asafoetida Powder, also known as "Hing," is a popular spice in Indian cuisine known for its strong and unique flavor. It is widely used as a flavor enhancer, especially in vegetarian dishes. Learn about the production process, culinary uses, and health benefits of compounded asafoetida powder in this informative section.</p>
+           </div>
+       </div>
+   </div>
+</section>
+
+
       <!-- coffee section end -->
       <!-- footer section start -->
       <div class="footer_section layout_padding">
-         <div class="container">
+         <div class="container pb-3">
             <div class="row">
                <div class="col-md-12">
                   <h1 class="address_text">Address</h1>
@@ -203,10 +183,7 @@
                         </li>
                      </ul>
                   </div>
-                  <div class="form-group">
-                     <textarea class="update_mail" placeholder="Your Email" rows="5" id="comment" name="Your Email"></textarea>
-                     <div class="subscribe_bt"><a href="#"><img src="images/teligram-icon.png"></a></div>
-                  </div>
+                   
                </div>
             </div>
          </div>
